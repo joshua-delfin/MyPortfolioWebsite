@@ -152,6 +152,9 @@ p{ font-family: 'Source Sans Pro', sans-serif;}
     
     justify-content: center;
     overflow: hidden;
+
+    border: 2px solid var(--borderColor);
+    border-radius: 5px;
 }
 
 .image-wrapper{
@@ -179,7 +182,9 @@ p{ font-family: 'Source Sans Pro', sans-serif;}
     grid-area: right-col;
     padding: 1%;
     font-size: 28px; font-family: 'Source Sans Pro', sans-serif; font-style: italic;
-    background-color: red;
+    
+    border: 2px solid var(--borderColor);
+    border-radius: 5px;
 }
 
 
